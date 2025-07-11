@@ -14,7 +14,7 @@ const TodoForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-2 rounded-md w-[500px] mx-auto mt-5 flex justify-between">
+    <form onSubmit={handleSubmit} className="p-2 rounded-md w-[95%] md:max-w-[500px] mx-auto mt-5 flex justify-between">
       <input name="todo" required autoComplete="off" placeholder="Enter your todo" className="outline-none w-[80%] border-[2px] border-white text-white p-2 rounded-md"/>
       <button type="submit" className="w-[19%] p-2 rounded-md cursor-pointer border-[2px] border-white text-white" > Create </button>
     </form>
